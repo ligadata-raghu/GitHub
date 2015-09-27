@@ -1,0 +1,131 @@
+{
+  "Message": {
+    "NameSpace": "com.bofa.messages",
+    "Name": "DataQualityMsg",
+    "Version": "00.01.00",
+    "Description": "Error Handling & Data Quality",
+    "Fixed": "false",
+    "Persist": "false",
+    "Fields": [
+      {
+        "Name": "AppId",
+        "Type": "System.String"
+      },
+      {
+        "Name": "AuthenticationMethod",
+        "Type": "System.String"
+      },
+      {
+        "Name": "BusinessFunction",
+        "Type": "System.String"
+      },
+      {
+        "Name": "ClientIp",
+        "Type": "System.String"
+      },
+      {
+        "Name": "Action",
+        "Type": "System.String"
+      },
+      {
+        "Name": "CorrId",
+        "Type": "System.String"
+      },
+      {
+        "Name": "CorrIdParent",
+        "Type": "System.String"
+      },
+      {
+        "Name": "DateTime",
+        "Type": "System.String"
+      },
+      {
+        "Name": "Device",
+        "Type": "System.String"
+      },
+      {
+        "Name": "ErrorMessage",
+        "Type": "System.String"
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String"
+      },
+      {
+        "Name": "Message",
+        "Type": "System.String"
+      },
+      {
+        "Name": "ConfidentialDataLabels",
+        "Type": "System.ArrayOfString"
+      },
+      {
+        "Name": "ConfidentialRecordCount",
+        "Type": "System.Int"
+      },
+      {
+        "Name": "ProprietaryDataLabels",
+        "Type": "System.ArrayOfString"
+      },
+      {
+        "Name": "ProprietaryDataValues",
+        "Type": "System.ArrayOfString"
+      },
+      {
+        "Name": "ProprietaryRecordCount",
+        "Type": "System.Int"
+      },
+      {
+        "Name": "Resource",
+        "Type": "System.String"
+      },
+      {
+        "Name": "ResourceHost",
+        "Type": "System.String"
+      },
+      {
+        "Name": "ResourcePort",
+        "Type": "System.String"
+      },
+      {
+        "Name": "ResourceProtocol",
+        "Type": "System.String"
+      },
+      {
+        "Name": "ResourceType",
+        "Type": "System.String"
+      },
+      {
+        "Name": "ProcessId",
+        "Type": "System.Int"
+      },
+      {
+        "Name": "ProcessName",
+        "Type": "System.String"
+      },
+      {
+        "Name": "Timezone",
+        "Type": "System.String"
+      },
+      {
+        "Name": "type1",
+        "Type": "System.String"
+      },
+      {
+        "Name": "User",
+        "Type": "System.String"
+      },
+      {
+        "Name": "SystemUser",
+        "Type": "System.String"
+      },
+      {
+        "Name": "UserRole",
+        "Type": "System.String"
+      }
+    ],
+    "PartitionKey": [
+      "User"
+    ]
+  }
+}
